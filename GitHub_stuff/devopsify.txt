@@ -1,0 +1,77 @@
+Best ways to increase productivity is to automate.
+
+Through the magic of DevOps.
+
+What is Github Actions?
+
+1 - Continous Integration:
+--------------------------
+Have developers contribute to main application in small maintainable chunks.
+
+github/workflows/ --> anything in this directory will be picked up by Github and automatically setup as a workflow 
+in the cloud
+INTEGRATE.YML, --> Here we will define the workflow
+name: Node Continous Integration # --> Give it a name.
+
+# tell which events to run using 'on' object,
+
+on:
+    pull_request:
+        branches: [ master ]
+
+
+# Every workflow should have one or more jobs defined in the following job object.
+
+jobs:
+    test_pull_request: #name of job
+        runs-on: ubuntu-latest              # which VM to run on>
+        steps:                              # set of steps/instructions that actually build and test our code.
+            - uses: actions/checkout@v2     # get the source code into the current working directory.
+            - uses: actions/setup-node@v1   # setup node js and specify version
+            with:
+                node-version: 12
+            - run: npm ci          # equivalent to npm install, to install dependencies.
+            - run: npm test        # test our code
+            - run: npm run build   # build command.
+
+
+Create a new branch using
+
+> git checkout -b testing
+> git add .
+> git commit -m 'This should fail it'
+
+
+2 - Continous Deployment:
+-------------------------
+
+Pushing Code out to the customer.
+
+Create new file in same workflow directory,
+github/workflow/deploy.YML
+"""
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@master
+            - uses: actions/setup-node@master
+                with:
+                node-version: 12
+            - run: npm ci
+            - run: npm run build
+            - uses: w9jds/firebase-action@master
+                with:
+                    args: deploy --only hosting
+                env:
+                    FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }} #the secret token.
+
+> git add .
+> git commit -m "cd workflow"
+> push origin master
+
+
+3 - Publish NPM Packages.
+-------------------------
+
+DEVOPSIFY your package development. USING Github workflows. Fireship.io

@@ -1,0 +1,20 @@
+2020-06-16 14:10:18,717;DEBUG		__main__ 20 + 10 = 30
+2020-06-16 14:10:18,717;DEBUG		__main__ 20 x 10 = 200
+2020-06-16 14:10:18,717;DEBUG		__main__ 20 / 10 = 2.0
+2020-06-16 14:15:18,880;ERROR		__main__ Tried to DIVIDE by ZERO
+2020-06-16 14:16:05,771;ERROR		__main__ Tried to DIVIDE by ZERO
+Traceback (most recent call last):
+  File "logging_ex2.py", line 41, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2020-06-16 14:17:49,608;ERROR		__main__ Tried to DIVIDE by ZERO
+Traceback (most recent call last):
+  File "logging_ex2.py", line 45, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2020-06-16 14:18:33,037;ERROR		__main__ Tried to DIVIDE by ZERO
+Traceback (most recent call last):
+  File "logging_ex2.py", line 46, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2020-06-16 14:18:53,126;ERROR		__main__ Tried to DIVIDE by ZERO

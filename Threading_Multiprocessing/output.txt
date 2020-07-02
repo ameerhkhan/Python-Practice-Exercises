@@ -1,0 +1,25 @@
+ Volume in drive Q is Two
+ Volume Serial Number is D878-AF51
+
+ Directory of Q:\Hamza\Python\Python_new_exercises
+
+05/27/2020  08:37 AM    <DIR>          .
+05/27/2020  08:37 AM    <DIR>          ..
+05/27/2020  09:06 AM             2,551 generators_example.py
+06/10/2020  11:05 PM             2,246 threading_examples.py
+06/10/2020  11:17 PM               761 threading_example2.py
+06/11/2020  05:16 PM             2,703 multiprocessing_ex.py
+06/11/2020  03:47 PM    <DIR>          .vscode
+06/11/2020  05:35 PM             1,005 multiprocess_ex2.py
+01/24/2014  02:08 PM            89,670 Rainbow-Ice-Print-846x564.jpg
+01/24/2014  02:19 PM         6,071,771 Leaning-into-the-night-Print.jpg
+01/24/2014  02:16 PM         8,490,102 Night-Rainbow-Print.jpg
+02/18/2014  02:08 PM            22,787 4.jpg
+06/11/2020  05:32 PM            16,262 Processed-Rainbow-Ice-Print-846x564.jpg.jpg
+06/11/2020  05:32 PM            11,256 Processed-4.jpg.jpg
+06/11/2020  05:32 PM            30,075 Processed-Leaning-into-the-night-Print.jpg.jpg
+06/11/2020  05:32 PM            36,716 Processed-Night-Rainbow-Print.jpg.jpg
+06/12/2020  02:33 PM               601 subprocess_ex.py
+06/12/2020  02:33 PM                 0 output.txt
+              15 File(s)     14,778,506 bytes
+               3 Dir(s)  68,887,248,896 bytes free

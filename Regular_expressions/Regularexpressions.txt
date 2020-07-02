@@ -1,0 +1,100 @@
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+Ha HaHa
+
+MetaCharacters (Need to be escaped):
+.[]{()\^$|?**}
+
+coreyms.com
+
+321-555-2321
+123.555.1234
+
+Mr. Schafer
+Mr Smith
+Mr Davis
+Mrs Robinson
+
+#press CLTR + F >> Then select Regular Expression and Match Case
+
+#Use \d or \D or same ... Find out more ar Corey Schafer's regular expression tutorial.
+
+Finding a phone Number?
+Use the following expression in find.
+
+\d\d\d.\d\d\d.\d\d\d\d
+3 digits .--> any character 3 digits . 4 digits
+\d\d\d   \                  \d\d\d   . \d\d\d\d
+
+To only match numbers and defined symbols/characters
+\d\d\d[-.]\d\d\d[-.]\d\d\d\d ## can also use \d{3}[-.]\d{3}[-.]\d{4}
+
+To match only 800 and 900 numbers,
+
+such as, 
+800-444-4321
+900-544-4567
+
+use,
+[89]00[.-]\d\d\d[.-]\d\d\d\d
+
+Only want to find lowercase alphabets
+use,
+[a-z]
+Want to find lowercase and uppercase,
+[a-zA-Z]
+
+[^a-z] --> don't match lowercase.
+[^b]at --> No b but only words with at preceded by anything other than b
+
+
+Sample Regexs
+[a-zA-Z0-9_.*-]
+
+How to find Names with Mr.?
+Mr\.? --> Match One period or No period
+Mr\.?\s[A-Z]\w* --> \s--> Match a space then match any Uppercase letter then, 
+                          Match any word character Use * or + to match ZERO or More word character 
+                          OR ONE or More word characters respectively
+
+How to find Mr as well as Ms or Mrs.?,
+M(r|s|rs)\.?\s[A-Z]\w* --> (r|s|rs) signifies a group to choose from. | --> OR function.
+
+Match an EMAIL Address,
+
+CoreyMSchafer@gmail.com
+corey.schafer@university.edu
+corey-321-schafer@any-work.net
+
+
+Use,
+[a-zA-Z]+@[a-zA-Z]+\.com for first Address
+
+[a-zA-Z.]+@[a-zA-Z]+\.(com|edu) for second Address
+
+[a-zA-Z0-9.-]+@[a-zA-Z-]+\.(com|edu|net) for third and/or all email addresses
+
+[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+ --> Matches all email addresses
+
+HOW TO USE INFORMATION CAPTURED FROM A GROUP??
+
+https://www.google.com
+http://coreyms.com
+https://youtube.com
+https://www.nasa.gov
+
+Use,
+https?://(www\.)?\w+\.\w+
+
+Let's capture the sections such domain name and toplevel domain
+
+https?://(www\.)?(\w+)(\.\w+)
+            ^       ^     ^
+            Gr1     Gr2   Gr3       --> Groups of text recovered
+BACKREFERENCE
+Use reference to capture groups.
+Using groups cleanup using $2$3
+
+
+

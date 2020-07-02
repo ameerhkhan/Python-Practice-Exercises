@@ -1,0 +1,68 @@
+Web Development
+Machine Learning
+Data Analysis/ Visualization
+Scripting
+Game Development
+Desktop/ Embedded Applications.
+
+Web Development,
+----------------
+Django and Flask
+
+Help you make server side code. (back end)
+helps build common logic
+mapping urls to python code
+dealing with databases.
+generating html files.
+
+Use Either Django or Flask but Django is better longterm.
+
+Machine Learning,
+-----------------
+Implements Algorithm to find out desired results.
+Can make,
+Recommendors
+Facial Recog
+Speech Recog
+
+Popular ML Algos,
+NN
+Development
+SVM
+RandomForest
+
+Libraries,
+Scikit-Learn
+Tensorflow
+
+COMPETE ON KAGGLE!!!
+
+Data Analysis and Visualization,
+--------------------------------
+Popular Libraries,
+MATPLOTLIB
+
+SEAborn
+
+Scripting,
+----------
+Refers to writing small programs that are designed to automate simple tasks.
+Small startup in Japan --> Responding to EMAIL, Counting the number of emails with a certain keyword.
+
+
+
+Game Development,
+-----------------
+PYGAME? Not really serious Application.
+Use Unity
+
+Desktop Applications,
+---------------------
+Can be used using Tkinter but Python not that popular.
+Use Javascript using certain frameworks like Angular, Electron etc..
+
+Embedded Applications,
+----------------------
+Using Raspberry Pi to make applications.
+
+

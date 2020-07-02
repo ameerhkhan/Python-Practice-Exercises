@@ -1,0 +1,10 @@
+INFO:root:Ran with args: ('John', '23'), and kwargs: {}
+INFO:root:Ran with args: ('Khan', '29'), and kwargs: {}
+INFO:root:Ran with args: ('Khan', '29'), and kwargs: {}
+INFO:root:Ran with args: ('Khan', '29'), and kwargs: {}
+INFO:root:Ran with args: ('Khan', '29'), and kwargs: {}
+INFO:root:Ran with args: ('Mughal', '29'), and kwargs: {}
+INFO:root:Ran with args: ('Mughal', '29'), and kwargs: {}
+INFO:root:Ran with args: ('Mughal', '29'), and kwargs: {}
+INFO:root:Ran with args: ('Mughal', '29'), and kwargs: {}
+INFO:root:Ran with args: ('Mughal', '29', 1592138546.8802893), and kwargs: {}

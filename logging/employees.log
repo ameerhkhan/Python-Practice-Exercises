@@ -1,0 +1,16 @@
+2020-06-16 13:56:57,983;INFO		root Created Employee Khan Ameer Khan.Ameer@email.com
+2020-06-16 13:56:57,983;INFO		root Created Employee Corey Schafer Corey.Schafer@email.com
+2020-06-16 13:56:57,983;INFO		root Created Employee Electro Boom Electro.Boom@email.com
+2020-06-16 13:56:57,983;WARNING		root 20 - 10 = 10
+2020-06-16 13:56:57,983;CRITICAL		root 20 * 2 = 400
+2020-06-16 13:59:17,649;INFO		root Created Employee Khan Ameer Khan.Ameer@email.com
+2020-06-16 13:59:17,649;INFO		root Created Employee Corey Schafer Corey.Schafer@email.com
+2020-06-16 13:59:17,649;INFO		root Created Employee Electro Boom Electro.Boom@email.com
+2020-06-16 13:59:17,649;INFO		root 20 + 10 = 30
+2020-06-16 13:59:17,649;WARNING		root 20 - 10 = 10
+2020-06-16 13:59:17,649;INFO		root 20 x 10 = 200
+2020-06-16 13:59:17,649;INFO		root 20 / 10 = 2.0
+2020-06-16 13:59:17,649;CRITICAL		root 20 * 2 = 400
+2020-06-16 14:02:58,925;INFO		__main__ Created Employee Khan Ameer Khan.Ameer@email.com
+2020-06-16 14:02:58,925;INFO		__main__ Created Employee Corey Schafer Corey.Schafer@email.com
+2020-06-16 14:02:58,925;INFO		__main__ Created Employee Electro Boom Electro.Boom@email.com
